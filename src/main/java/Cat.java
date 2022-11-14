@@ -1,5 +1,10 @@
-public class Cat extends Animal{
-    public void makeSound() {
+public class Cat extends Animal {
+
+    public Cat(String name) {
+        super(name);
+    }
+    public boolean makeSound() {
         System.out.println("Meow");
+        return true;
     }
 }
