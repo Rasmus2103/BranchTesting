@@ -12,4 +12,12 @@ public class Dog extends Animal{
     public boolean eat(String foodType) {
         return true;
     }
+
+    public String showMood(boolean mood) {
+        if(mood == true) {
+            return "Logrer";
+        } else {
+            return "Knurrer";
+        }
+    }
 }
