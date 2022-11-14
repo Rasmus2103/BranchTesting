@@ -8,7 +8,7 @@ public class Cat extends Animal {
         return true;
     }
 
-    public boolean eat() {
+    public boolean eat(String foodType) {
         return true;
     }
 }
